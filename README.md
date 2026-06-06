@@ -18,10 +18,35 @@ The dataset separates loss ratios into two structural types—buildings and non-
 
 An explanation of the labels used in the dataset is provided in the table below.
 
-| Label | Sub-label | Details |
-|---|---|---|
-| Tsunami intensity measure | Inundation depth | Tsunami inundation depths in meters |
-| Industrial sectors loss ratio | Construction material industry<br>Cargo handling industry<br>Chemical industry<br>Food industry\*<br>Manufacturing industry<br>Petrochemical industry<br>Energy-related industry<br>Warehousing and distribution\* | Mean loss ratios by industrial sector at 0.01 m intervals. The values range between 0 and 1. |
+
+<table>
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th>Sub-label</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tsunami intensity measure</td>
+      <td>Inundation depth</td>
+      <td>Tsunami inundation depths in meters</td>
+    </tr>
+    <tr>
+      <td rowspan="8">Industrial sectors loss ratio</td>
+      <td>Construction material industry</td>
+      <td rowspan="8">Mean loss ratios by industrial sector at 0.01 m intervals. The values range between 0 and 1.</td>
+    </tr>
+    <tr><td>Cargo handling industry</td></tr>
+    <tr><td>Chemical industry</td></tr>
+    <tr><td>Food industry*</td></tr>
+    <tr><td>Manufacturing industry</td></tr>
+    <tr><td>Petrochemical industry</td></tr>
+    <tr><td>Energy-related industry</td></tr>
+    <tr><td>Warehousing and distribution*</td></tr>
+  </tbody>
+</table>
 
 \* Infrastructure-specific vulnerability functions are not provided for the food industry and warehousing and distribution sector due to insufficient sample sizes.
 
