@@ -50,6 +50,16 @@ An explanation of the labels used in the dataset is provided in the table below.
 
 \* Infrastructure-specific vulnerability functions are not provided for the food industry and warehousing and distribution sector due to insufficient sample sizes.
 
+### Vulnerability Functions
+
+<p align="center">
+  <img src="images/vulnerability_Building.png" width="48%" alt="Vulnerability functions for buildings"/>
+  <img src="images/vulnerability_Infrastructure.png" width="48%" alt="Vulnerability functions for non-building infrastructure"/>
+</p>
+<p align="center">
+  <em>Tsunami vulnerability functions for buildings (left) and non-building infrastructure (right). Figures reproduced from Miki et al. (2025).</em>
+</p>
+
 ---
 
 ## License
